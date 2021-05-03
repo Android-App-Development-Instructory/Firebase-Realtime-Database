@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/phoneNumberET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your number"
+        android:layout_margin="10dp"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/ageET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your age"
+        android:layout_margin="10dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/storeUserData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Store user"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:onClick="viewUserData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View User Data"
+        android:layout_margin="20dp"/>
+
+
+
+</LinearLayout>

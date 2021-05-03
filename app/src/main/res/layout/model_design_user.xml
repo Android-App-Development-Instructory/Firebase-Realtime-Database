@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    android:background="#F8AFAF">
+
+    <TextView
+        android:id="@+id/user_nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: Md. Al-Amin"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:id="@+id/user_phoneTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: 016111111111"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:id="@+id/user_ageTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age: 23"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="2dp"/>
+
+</LinearLayout>
